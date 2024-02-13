@@ -1,0 +1,53 @@
+<!DOCTYPE html>   
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amrit kumar singh">
+    <title>Registration</title>
+    <style>
+        .inp{
+              height: 0.55cm;
+              width: 200px;   
+        }
+        .image{
+               height: 20px;  
+               margin-top: 2px; 
+               
+        }
+        body{background-color: chocolate;}
+        radio{ font-display: inline;}
+        
+    </style>
+</head>
+<body >
+    
+    <div align="center">
+    <form style="font-size:23px; margin-top: 70px; color: rgba(16, 19, 202, 0.932);">
+        <fieldset  style="width: 250px; background-color: rgba(170, 172, 248, 0.486); border-width: 5pt; border-color: rgba(126, 91, 223, 0.438); border-radius: 40px;">
+            <b><p align="center" >Registration</p></b><hr>
+            <input type="radio"  name="radio" id="per" title="select"><lable for="per">Personal</lable><input type="radio" name="radio" id="com" title="select" ><label for="com">Company</label>
+            <hr>
+            <label style="font-size: smaller;" align="center" for="usrname">Enter Username</label><br>
+            <img  class="image" src="https://th.bing.com/th/id/R.6b0022312d41080436c52da571d5c697?rik=4kYwQ1H0Af8lGw&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f585e4bcdcb11b227491c3396.png&ehk=qIyBqqHtuGh6Q4AT6rdJLjmcvimJ9e8r05TLahpkS0o%3d&risl=&pid=ImgRaw&r=0" alt="username" title="User-id">
+            <input class="inp" type="text" placeholder="Username"  required id="usrname">
+            
+            <label  style="font-size: smaller;" align="center" for="emailid">Enter gmail</label><br>
+            <img  class="image" src="https://iconape.com/wp-content/uploads/1/11/gmail-02.png" alt="Gmail" title="Gmail-id"><input class="inp" type="email" placeholder="abc@gmail.com" required id="emailid">
+        
+            <label  style="font-size: smaller;" align="center" for="entpwd">Enter password</label><br>
+            <img  class="image" src="https://th.bing.com/th/id/R.0c0f3097399c199c0c62658f5c5d09a8?rik=htT%2fAi6miV7MrQ&riu=http%3a%2f%2fwoozworld-news.s3.amazonaws.com%2fcommunity%2fwp-content%2fuploads%2f2015%2f03%2fpassword_safety_logo_01.png&ehk=2cc9RXAHzH1q82kuzQkoP1JdMY%2bbHUoNbyacmccNG%2bI%3d&risl=&pid=ImgRaw&r=0" alt="pwd" title="Password">
+            <input class="inp" type="password" placeholder="Enter password" required id="entpwd">
+            
+            <label  style="font-size: smaller;" align="center" for="confpwd">Confirm password</label><br>
+            <img  class="image" src="https://th.bing.com/th/id/R.0c0f3097399c199c0c62658f5c5d09a8?rik=htT%2fAi6miV7MrQ&riu=http%3a%2f%2fwoozworld-news.s3.amazonaws.com%2fcommunity%2fwp-content%2fuploads%2f2015%2f03%2fpassword_safety_logo_01.png&ehk=2cc9RXAHzH1q82kuzQkoP1JdMY%2bbHUoNbyacmccNG%2bI%3d&risl=&pid=ImgRaw&r=0" alt="pwd" title="Conform-Passsword">
+            <input class="inp" type="password" placeholder="Confirm password" required id="confpwd">
+            <br>
+            <hr>
+            <input type="checkbox" id="checbox"><label style="font-size:medium;" for="checbox">Click here to accept <a href="#">Terms and Conditions.</a></label><br>
+            <a href="#"><input type="submit" value="Register"></a>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
